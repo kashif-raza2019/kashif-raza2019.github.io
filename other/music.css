@@ -1,0 +1,57 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+
+    article{
+    width: 55%;
+    height: 340px;
+    margin-left: auto;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px 5%;
+    box-sizing: border-box;
+    box-shadow: 0 0 21px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    }
+
+    .cont{
+    margin-bottom: 28px;
+    }
+
+    .cont h3{
+    font-family: 'Lato';
+    font-size: 50px;
+    margin: 0 0 10px 0;
+    color: white;
+    }
+
+    .cont time{
+    font-family: 'Lato';
+    font-size: 12px;
+    color: #999;
+
+  }
+  audio{
+    margin-top: 300px;
+    height: 20px;
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    border-radius: 90px;
+    transform: scale(1.05);
+    opacity: 0.7;
+  }
+ audio:hover{
+   border-radius: 24px;
+   border: 2px solid #2daaff;
+   opacity: 1.0;
+ }
+  audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #bc0d4a;
+     }

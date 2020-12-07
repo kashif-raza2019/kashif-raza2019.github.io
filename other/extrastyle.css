@@ -1,0 +1,137 @@
+
+ @keyframes slideRightExp{
+   from{width: 3px;}
+   to{width: 180px;}
+ }
+ @keyframes slideRightAdv{
+   from{width: 3px;}
+   to{width: 150px;}
+ }
+ @keyframes slideRightInt{
+   from{width: 3px;}
+   to{width: 120px;}
+ }
+  .level {
+    height: 7px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    left: 90px;
+    border-radius: 5px;
+    background-color: slategray;
+
+  }
+  .expert{
+    height: 7px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    left: 90px;
+    border-radius: 5px;
+    border: 1px solid slategray;
+    background-color: #f2b602;
+    animation-name: slideRightExp;
+    animation-duration: 2s;
+  }
+  .expert:hover{
+    cursor: pointer;
+    background-color: #14bc25;
+    transition: 0.3s;
+  }
+  .advanced{
+    height: 6.8px;
+    width: 150px;
+    left: 90px;
+    border-radius: 5px;
+    border: 1px solid slategray;
+    background-color: #f2b602;
+    animation-name: slideRightAdv;
+    animation-duration: 2s;
+  }
+  .advanced:hover{
+    cursor: pointer;
+    background-color: #1484bc;
+    transition: 0.3s;
+  }
+  .intermediate{
+    height: 6.8px;
+    width: 120px;
+    left: 90px;
+    border-radius: 5px;
+    border: 1px solid slategray;
+    background-color: #f2b602;
+    animation-name: slideRightInt;
+    animation-duration: 2s;
+  }
+  .intermediate:hover{
+    cursor: pointer;
+    background-color: #e516d0;
+    transition: 0.3s;
+  }
+  .beginner{
+    height: 6.8px;
+    width: 80px;
+    left: 90px;
+    border-radius: 5px;
+    border: 1px solid slategray;
+    background-color: #f2b602;
+
+  }
+  .beginner:hover{
+    cursor: pointer;
+    background-color: #ce410e;
+    transition: 0.3s;
+  }
+
+  #myProjects{
+    height: 50px;
+    width: 72%;
+    background-color: white;
+    border-radius: 15px;
+  	padding: 4px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    overflow: hidden;
+  }
+  #myProjects:hover{
+    color:#B35A89;
+    transition: 0.2s;
+  }
+  @keyframes fadeIn{
+   from{opacity: 0.1; margin-top: 200px;}
+   to{opacity: 1.0; margin-top: 20px;}
+  }
+ .tech-used{
+   color: slategray;
+ }
+  #myGit{
+    height: 180px;
+    width: 72%;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    font-size: 1.6em;
+    font-family: Bahnschrift;
+  	padding: 4px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    overflow: hidden;
+  }
+ @keyframes slideUp{
+  from{opacity: 0.4; width: 600px; height: 380px; }
+  to{opacity: 1.0; width:80%; height: 200px;}
+ }
+ 
