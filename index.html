@@ -382,8 +382,14 @@
 	 </footer>
  </div>
  <script type="text/javascript">
+   
    $(window).on("load", function(){
-    $(".loader").fadeOut(7500);
+    $(".loader").fadeOut(3500);
+	   function HideScrollbar() {
+  var style = document.createElement("style");
+  style.innerHTML = `body::-webkit-scrollbar {display: none;}`;
+  document.head.appendChild(style);
+}
 
    });
      <!--For Side navigation Bar with animation--!>
