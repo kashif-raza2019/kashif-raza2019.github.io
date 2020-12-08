@@ -9,7 +9,6 @@
   <link rel="icon" href="assets/favicon.png" type="image/png" sizes="32x32">
   <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
  <style type="text/css">
@@ -313,18 +312,7 @@
     color: #bc0d4a;
 	transition: 0.4s;
    }
-   .loader{
-     height: 100%;
-     width: 100%;
-     position: absolute;
-     top: 0;
-     left: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color:#012243;
-     z-index: 9999;
-   }
+ 
   </style>
  </head>
  <body>
@@ -363,29 +351,12 @@
 		<a href="https://github.com/kashif-raza2019" class="socialImgs"><img src="assets/github.jpg" height="180px" width="250px" style="margin-left: auto;margin-right: auto" align="center" title="Kashif's GITHUB"></a>
         <a href="#" class="socialImgs"><img src="assets/youtube.jpg" height="140px" width="220px" style="margin-left: auto;margin-right: auto" align="center" title="Kashif's Youtube"></a>
 	</div>
-
-	 <div id="messageBox">
-	   <p style="font-size: 1.8em; font-weight: bold; font-family: Courier; text-align: center">Leave a Message!</p>
-	   <textarea  name="message" id="messagetxt" >Type in your secret message here!
-	   (Suggestions/Advice/Tips/Comment)</textarea><br>
-	   <label for="name" name="flname">Your Name:<span class="required">*</span></label><br>
-	   <input type="text" name="flname" class="inputData" placeholder="Elon Musk"><br>
-	   <label for="email" name="emailAdd">Your E-Mail:<span class="required" >*</span></label><br>
-	   <input type="text" name="emailAdd" class="inputData" placeholder="muskelon@tesla.com">
-	  <p style="font-weight: bold;font-family: Nunito, sans-serif;"><span class="required" >*</span>required</p>
-
-	  <button id="submit" onclick="submit()">Send <img src="assets/plane.png" height="30px" width="58px" title="Send with love :)"></button>
-	 </div>
-
+	 
 	 <footer>
 	   <p>&copy; Copyrights 2020 for Design by Kashif Raza</p>
 	 </footer>
  </div>
  <script type="text/javascript">
-   
-   $(window).on("load", function(){
-    $(".loader").fadeOut(3500);
-   });
      <!--For Side navigation Bar with animation--!>
 	  function openNav() {
 	  document.getElementById("mySidenav").style.width = "250px";
